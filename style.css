@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  background-color: black;
+}
+
+.h1{
+  color: rgb(255, 255, 255);
+    font-family: Arial Rounded MT Bold;
+    text-decoration: none;
+    float: left;
+    font-size: 50px;
+}
+.h6{
+  color: rgb(252, 216, 222);
+    font-family: Arial Rounded MT Bold;
+    text-decoration: none;
+    float: left;
+    font-size: 35px;
+}
+.foto{
+    
+    border-radius: 0%;
+}
+
+.menu {
+  background-color: rgba(209, 179, 179, 0.315);
+    
+    overflow: hidden;
+    border: 10px solid rgb(25 27 29 / 0%);
+    width: 100%;
+    padding: 8px 0;
+    position: fixed;
+  }
+
+.menu a {
+    
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    float: right;
+    margin-right: 15px;
+  }
+  
+.menu a:hover{
+  background-color: rgb(252, 216, 222);
+  color: black;
+}
+
+a{
+    border-radius: 10%;
+}
+
+.footer{
+    background-color: black;
+   width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .slider {
+    width: 100%;
+  }
+  
+}
+.slider  {
+  width: 820px 400px;
+  height: 760px;
+  background-image: url(foto.jpg);
+  animation-name: dorentina;
+  animation-duration: 9s ;
+  animation-iteration-count: infinite;
+  background-size: cover;
+}
+
+@keyframes dorentina {
+  10%   {background-image: url(foto.jpg);}
+  25%  {background-image: url(6b225388a89c4ff9b07bd0be86bf16da_1080x1349.jpg);}
+  50%  {background-image: url(foto4.jpg);}
+  100% {background-image: url(82f6122e849aca8326743bcf68de76b8.jpg);}
+}
+
